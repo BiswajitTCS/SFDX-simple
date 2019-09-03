@@ -13,8 +13,9 @@ println JWT_KEY_CRED_ID
 println HUB_ORG
 println SFDC_HOST
 println CONNECTED_APP_CONSUMER_KEY
-def toolbelt = tool 'toolbelt'
 println('Success1')
+def toolbelt = tool 'toolbelt'
+println('Success2')
 stage('checkout source') {
 // when running in multi-branch job, one must issue this command
 checkout scm
